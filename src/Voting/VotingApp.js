@@ -57,7 +57,7 @@ function VotingApp(props) {
         let lastID = totalProposals - (localPageNumber)*propsPerPage;
         if(lastID < 0) lastID = 0;
         
-        if(proposals[0].proposalID == firstID){
+        if(proposals.length > 0 && proposals[0].proposalID == firstID){
             functionLock = false;
             return;
         }
