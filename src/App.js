@@ -99,7 +99,6 @@ function App() {
                   <a href="/VotingApp">DAO Voting dApp</a><br />
                   <a href="/Chat">NFT Chat dApp</a><br />
                   <a href="/Marketplace">NFT Marketplace</a><br />
-                  <a href="#">To-Do List</a><br />
                 </div>
               </li>
             </ul>
