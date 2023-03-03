@@ -1,0 +1,118 @@
+.chatBubble {
+    background-color: #222222;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.bubbleInfo {
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 14px;
+    margin-bottom: 15px;
+}
+
+
+.chatText {
+    display: flex;
+}
+
+.mainWrap {
+    width: 100%;
+}
+
+.textInput {
+    margin: 8px;
+    font-size: 16px;
+    padding: 12px 15px;
+}
+
+.DescriptionBox {
+    width: 500px;
+    height: 200px;
+    font-size: 25px;
+    color: #333;
+    background-color: #e8e8e8;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #ccc;
+}
+
+.chatImage {
+    width: 75px;
+    margin-right: 14px;
+    margin: 5px;
+}
+
+.buttonStyle {
+    border: 2px solid #EE811A;
+    background: #EE811A;
+    color: #000000;
+    padding: 6px 10px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+.ButtonStyle a {
+    background-color: #ee811a;
+    border-width: 0px;
+    color: #000000;
+    padding: 10px;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 15.5px;
+}
+
+.sendButton {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.ButtonStyle a:hover {
+    color: #2F8AE4;
+    transition: .5s ease-in-out;
+}
+
+.SubmissionForm {
+    color:#ecf0f1;
+    font-size: 40px;
+}
+
+.SubmissionMenu {
+    font-size: 25px;
+    color: #333;
+    background-color: #e8e8e8;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #ccc;
+}
+
+.chatText {
+    display: flex;
+}
+
+.chatImage {
+    width: 75px;
+    margin-right: 14px;
+    margin: 5px;
+}
+
+.mainWrap {
+    width: 100%;
+}
+
+.chatBubble {
+    background-color: #222222;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.bubbleInfo {
+    margin-top: 0px;
+    margin-left: 14px;
+    margin-bottom: 15px;
+}

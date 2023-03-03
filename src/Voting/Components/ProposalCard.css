@@ -1,0 +1,104 @@
+.ProposalGrid {
+    display: grid;
+    /* grid-template-rows: 60px repeat(4, 100px); */
+    grid-template-columns: repeat(3, 100px) 150px 50px repeat(6, 100px);
+    margin: 20px;
+}
+
+.StatsFont {
+    color:rgb(226, 226, 226);
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 1.5px;
+}
+
+.ProposalDescriptionFont {
+    color: black;
+    padding: 15px;
+    font-size: 25px;
+    text-align: left;
+    border-radius: 10px;
+    margin: 1.5px;
+}
+
+.ProposalID {
+    background-color: rgb(56, 54, 54);
+    grid-column: 2/5;
+}
+
+.ProposalState {
+    background-color: rgb(56, 54, 54);
+    grid-column: 5/9;
+}
+
+.ProposalVotingStats {
+    background-color: rgb(56, 54, 54);
+    grid-column: 9/11;
+    grid-row: 1/7;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.ProposalStatsFont {
+    color:rgb(226, 226, 226);
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 1.5px;
+}
+
+.InactiveDescription {
+    background-color: rgb(199, 199, 199);
+    grid-column: 2/9;
+    grid-row: 2/7; /* Covers buttons*/
+}
+
+.ActiveDescription {
+    background-color: rgb(199, 199, 199);
+    grid-column: 2/9;
+    grid-row: 2/6;
+}
+
+.ButtonStyle {
+    text-align: center;
+    background-color: #ee811a;
+    color: #000000;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 1.5px;
+}
+
+.ButtonVoteFont  {
+    color: black;
+    font-size: 25px;
+}
+
+.ButtonVoteFor {
+    float: right;
+    grid-column: 2/5;
+    width: 49%;
+}
+
+.ButtonVoteAgainst {
+    grid-column: 5/9;
+    width: 49%;
+}
+
+
+.ExecuteButton {
+    text-align: center;
+    background-color: #ee811a;
+    color: #000000;
+    grid-column: 2/5;
+    font-size: 30px;
+    align-items: center;
+}
+
+.ButtonGrid {
+    grid-column: 2/9;
+}

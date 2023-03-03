@@ -1,0 +1,15 @@
+
+.SubmissionForm {
+    color:#ecf0f1;
+    font-size: 40px;
+}
+
+.SubmissionMenu {
+    font-size: 25px;
+    color: #333;
+    background-color: #e8e8e8;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #ccc;
+}

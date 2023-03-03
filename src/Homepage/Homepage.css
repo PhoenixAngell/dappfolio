@@ -1,0 +1,58 @@
+.content {
+    position: absolute;
+    left: 0px;
+    top: 20%;
+}
+
+/* Changes: 
+    font-size
+    text-shadow
+*/
+.content h1 {
+    font-size: 70px;
+    line-height: 30%;
+    color: white;
+    text-shadow: 5px 5px #303030;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+    .container img {
+        width: 25%;
+        margin: 5%;
+        border-radius: 10%;
+        box-shadow: 0px 0px 20px #ccc;
+        transition: all 0.5s;
+    }
+
+    /* Changes:
+        width
+        border-radius
+    */
+    .container p {
+        /* font-size: 20px; */
+        font-size: 150%;
+        background-color: linear-gradient(to bottom, #333, #444);
+        border-radius: 50px;
+        width: 50%;
+        padding: 4%;
+        margin: 5%;
+        box-shadow: 0px 0px 20px #ccc;
+        border: 2px #333;
+        color: white;
+        text-shadow: 1px 1px #333;
+        transition: all 0.5s;
+    }
+
+    .container p:hover {
+        box-shadow: 0px 0px 50px #ccc;
+        transform: scale(1.05);
+    }
+
+    img:hover {
+        box-shadow: 0px 0px 50px #ccc;
+        transform: scale(1.05);
+    }
